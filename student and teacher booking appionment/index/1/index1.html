@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Input Wave</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Admin  Login</h1>
+      <form  action="admin.html">
+        <div class="form-control">
+          <input type="text" id="e"required>
+          <label>Email</label>
+          
+        </div>
+
+        <div class="form-control">
+          <input type="password"  id="p1"required>
+          <label>Password</label>
+        </div>
+
+        <div class="form-control">
+          <input type="password"  id="p2"required>
+          <label>Re-Password</label>
+        </div>
+
+       <a href="admin.html" ><button class="btn"onclick="validate()">Login</button></a>
+
+        <p class="text">Don't have an account? <a href="#">Register</a> </p>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
